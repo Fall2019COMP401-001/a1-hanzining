@@ -27,7 +27,7 @@ public class A1Novice {
 				price += amount * unitprice;
 			}
 			
-			System.out.println(firstname[i]+ "." + lastname[i]+ ":" + String.format("%.2f", price));
+			System.out.println(firstname[i]+ ". " + lastname[i]+ ": " + String.format("%.2f", price));
 		}
 	
 	}
