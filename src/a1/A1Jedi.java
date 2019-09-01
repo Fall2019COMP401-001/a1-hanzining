@@ -43,6 +43,7 @@ public static void main(String[] args) {
 							for(int p=0; p<k; p++) {
 								if(name[p].equals(name[k])){
 									customeramount[m] -= 1;
+									break;
 								}
 							}
 						} else {
